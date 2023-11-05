@@ -6,3 +6,22 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cacao = { version = "0.3.2" }
+block2 = "0.3.0"
+icrate = { version = "0.0.4", features = [
+    "AppKit",
+    "AppKit_NSWorkspace",
+    "AppKit_NSEvent",
+    "Foundation_NSNotificationCenter",
+    "Foundation_NSNotification",
+    "AppKit_NSMenu",
+    "AppKit_NSMenuItem",
+    "AppKit_NSStatusBar",
+    "AppKit_NSStatusItem",
+    "AppKit_NSStatusBarButton",
+    "AppKit_NSImage",
+] }
+duct = "0.13.6"
+serde_json = "1.0.108"
+serde = "1.0.190"
+once_cell = "1.18.0"
